@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HXiMate401 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\bill\AppData\Local\Temp\RSPDC0F.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "HXIMATE401_EXPORTS" /FR"Release/" /Fp"Release/HXiMate401.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\bill\Documents\MFC-\÷ÿ«Ï≈©…Ã\HXiMate401\HXiMateAppFace.cpp"
+]
+Creating command line "cl.exe @C:\Users\bill\AppData\Local\Temp\RSPDC0F.tmp" 
+Creating temporary file "C:\Users\bill\AppData\Local\Temp\RSPDC10.tmp" with contents
+[
+setupapi.lib /nologo /dll /incremental:no /pdb:"Release/HXiMate401.pdb" /machine:I386 /def:".\mydll.def" /out:"Release/HXiMate401.dll" /implib:"Release/HXiMate401.lib" 
+".\Release\d3des.obj"
+".\Release\des.obj"
+".\Release\HidFace.obj"
+".\Release\hidwin.obj"
+".\Release\HXiMateAppFace.obj"
+".\Release\StdAfx.obj"
+".\Release\str.obj"
+]
+Creating command line "link.exe @C:\Users\bill\AppData\Local\Temp\RSPDC10.tmp"
+<h3>Output Window</h3>
+Compiling...
+HXiMateAppFace.cpp
+Linking...
+   Creating library Release/HXiMate401.lib and object Release/HXiMate401.exp
+Creating command line "bscmake.exe /nologo /o"Release/HXiMate401.bsc"  ".\Release\d3des.sbr" ".\Release\des.sbr" ".\Release\HidFace.sbr" ".\Release\hidwin.sbr" ".\Release\HXiMateAppFace.sbr" ".\Release\StdAfx.sbr" ".\Release\str.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HXiMate401.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: testdll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\bill\AppData\Local\Temp\RSP9AEA.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/testdll.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\ÆÖ·¢ÒøÐÐ\testdll\testdllDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\bill\AppData\Local\Temp\RSP9AEA.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/testdll.pdb" /machine:I386 /out:"Release/testdll.exe"  ".\Release\StdAfx.obj" ".\Release\testdll.obj" ".\Release\testdllDlg.obj" ".\Release\testdll.res" "
+<h3>Output Window</h3>
+Compiling...
+testdllDlg.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/testdll.bsc"  ".\Release\StdAfx.sbr" ".\Release\testdll.sbr" ".\Release\testdllDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+testdll.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

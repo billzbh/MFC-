@@ -1,0 +1,16 @@
+LIBRARY
+EXPORTS    
+
+SDBSetPinPadID @1
+SDBGetPinPadID @2
+SDBGetCompanyPinPadID @3
+SDBRestDefaultKey @4
+SDBInputTMK @5
+SDBLoadTMK @6
+SDBInputKEY @7
+SDBInputKeyNoCheck @8
+SDBCheckKEY @9
+SDBReadCustomerPin @10
+SDBGenerateMAC @11
+SDBFormatAnsiX98Account @12
+SDBPinpadCancel @13

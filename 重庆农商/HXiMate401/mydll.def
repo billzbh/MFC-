@@ -1,0 +1,17 @@
+LIBRARY    HXiMate401
+DESCRIPTION "Library For IMATE"
+EXPORTS
+	SDBSetPinPadID
+	SDBGetPinPadID
+	SDBGetCompanyPinPadID
+	SDBRestDefaultKey
+	SDBInputTMK
+	SDBLoadTMK
+	SDBInputKEY
+	SDBInputKeyNoCheck
+	SDBCheckKEY
+	SDBReadCustomerPin
+	SDBGenerateMAC
+	SDBFormatAnsiX98Account
+	SDBPinpadCancel
+
